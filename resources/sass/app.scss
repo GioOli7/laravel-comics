@@ -1,20 +1,7 @@
 //
 
 @import "partials/vars";
+@import "partials/defaults";
 @import "partials/utilities";
 @import "partials/header";
 @import "partials/cards-section";
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: $main-font;
-}
-
-main {
-    background-color: $dark-gray;
-}
