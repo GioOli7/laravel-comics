@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// HOME
 Route::get('/', function () {
 
     // data
@@ -20,4 +21,9 @@ Route::get('/', function () {
     // dump($comics);
 
     return view('home', ['cards' => $comics]);
-});
+})->name('home');
+
+// NEWS
+Route::get('/news', function () {
+    return view('news');
+})->name('news');
