@@ -81,3 +81,36 @@ header ul a {
   color: white;
 }
 
+footer {
+  background-color: #303030;
+  padding: 30px 0;
+}
+
+footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .content .sign-up {
+  background-color: transparent;
+  border: 2px solid #0182f9;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+footer .content .socials {
+  display: flex;
+  align-items: center;
+}
+
+footer .content .socials a {
+  margin-left: 10px;
+}
+
+footer .content h3 {
+  color: #0182f9;
+}
+
