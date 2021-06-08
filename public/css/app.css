@@ -13,3 +13,38 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+header .logo {
+  max-height: 80%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin-left: 30px;
+}
+
+header ul li {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  font-weight: bold;
+  height: 100px;
+  border-bottom: 2px solid transparent;
+}
+
+header ul li.active {
+  color: #0182f9;
+  border-bottom: 2px solid #0182f9;
+}
+
+header ul a {
+  color: currentColor;
+  text-decoration: none;
+}
+
