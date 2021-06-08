@@ -3,16 +3,6 @@
   margin: 0 auto;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Nunito", sans-serif;
-}
-
 header {
   display: flex;
   align-items: center;
@@ -46,5 +36,47 @@ header ul li.active {
 header ul a {
   color: currentColor;
   text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.cards .card {
+  width: calc(100% / 6 - 10px);
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 35px;
+}
+
+.cards .card .comic-title {
+  color: white;
+}
+
+.cards .btn {
+  background-color: #0182f9;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+main {
+  background-color: #1c1c1c;
 }
 

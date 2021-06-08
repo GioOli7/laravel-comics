@@ -3,13 +3,17 @@
 
 @section('content')
     <section class="container">
-        @foreach ($cards as $card)
-            <div>
-                <img src=" {{ $card['image'] }}" alt="">
-                <h3 class="comic-title"> {{ $card['title'] }}</h3> </h3>
-            </div>
-            
-        @endforeach
+        <div class="cards">
+            @foreach ($cards as $card)
+                <div class="card">
+                    <img src=" {{ $card['image'] }}" alt="">
+                    <h5 class="comic-title"> {{ $card['title'] }}</h5> </h3>
+                </div>
+                
+            @endforeach
+            <a class="btn" href="#">LOAD MORE</a>
+        </div>
+
     </section>
 @endsection
             
