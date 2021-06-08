@@ -2,15 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px 0;
+    padding: 90px 0;
     text-align: center;
     .card {
         width: calc(100% / 6 - 10px);
         margin-right: 5px;
         margin-left: 5px;
-        margin-bottom: 35px;
+        margin-bottom: 50px;
         .comic-title {
             color: white;
+            margin-top: 10px;
         }
     }
     .btn {
